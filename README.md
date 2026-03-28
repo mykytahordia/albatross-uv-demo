@@ -23,6 +23,7 @@ albatross
 
 ```toml
 albatross:
+    "tqdm"
     extra "np":
         "numpy"
 
@@ -54,12 +55,12 @@ Excpected output:
 ``` bash
 === albatross ===
 httpie from bird-feeder is not present
-core_fun
+core_fun: 100%|██████████████| 5/5 [00:01<00:00,  3.92it/s]
 OK numpy 2.4.3
 
 
 === bird-feeder ===
 numpy from core module extra is not present
-core_fun
+core_fun: 100%|██████████████| 5/5 [00:01<00:00,  3.91it/s]
 OK httpie 3.2.4
 ```
