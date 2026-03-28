@@ -17,4 +17,4 @@ def assert_no_numpy() -> None:
 def test() -> None:
     assert_no_numpy()
     core_fun()
-    print("OK", httpie.__version__)
+    print("OK", "httpie", httpie.__version__)

@@ -57,11 +57,11 @@ Excpected output:
 === albatross ===
 httpie from bird-feeder is not present
 core_fun
-OK 2.4.3
+OK numpy 2.4.3
 
 
 === bird-feeder ===
 numpy from core module extra is not present
 core_fun
-OK 3.2.4
+OK httpie 3.2.4
 ```

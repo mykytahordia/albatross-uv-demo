@@ -17,4 +17,4 @@ def assert_no_httpie() -> None:
 def test() -> None:
     assert_no_httpie()
     core_fun()
-    print("OK", np.__version__)
+    print("OK", "numpy", np.__version__)
