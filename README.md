@@ -23,8 +23,6 @@ albatross
 
 ```toml
 albatross:
-    "bird-feeder"
-
     extra "np":
         "numpy"
 
